@@ -20,8 +20,8 @@ insert into tbl_employees(name, email, department)
 values ("Alice", "alice@gmail.com", "IT");
 
 ## Endpoints:
-GET  /employees  --------------> return list of all employees
-GET  /employees/id ------------> return employee by id
-POST /employees/ --------------> save employee
-PUT  /employees/id ------------> update employee by id
-DELETE /employees/id ----------> delete employee by id
+#### GET  /employees  --------------> return list of all employees
+#### GET  /employees/id ------------> return employee by id
+#### POST /employees/ --------------> save employee
+#### PUT  /employees/id ------------> update employee by id
+#### DELETE /employees/id ----------> delete employee by id
